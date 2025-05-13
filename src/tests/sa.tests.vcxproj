@@ -1,0 +1,594 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{62979B99-610F-364E-8A91-DE8BC7047648}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>sa.tests</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\gitroot\ShellAnything\build\bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">sa.tests.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">sa.tests-d</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\gitroot\ShellAnything\build\bin\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">sa.tests.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">sa.tests</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\gitroot\ShellAnything\build\bin\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">sa.tests.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">sa.tests</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\gitroot\ShellAnything\build\bin\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">sa.tests.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">sa.tests</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\gitroot\ShellAnything\include;C:\gitroot\ShellAnything\build\include;C:\gitroot\ShellAnything\third_parties\googletest\install\include;C:\gitroot\ShellAnything\src\tests\rapidassist;C:\gitroot\ShellAnything\src\tests\libmagic;C:\gitroot\ShellAnything\src\libexprtk;C:\gitroot\ShellAnything\src\shared;C:\gitroot\ShellAnything\src\core;C:\gitroot\ShellAnything\src\logger\glog;C:\gitroot\ShellAnything\build\src\logger\glog;C:\gitroot\ShellAnything\src\windows;C:\gitroot\ShellAnything\build\src\windows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/gitroot/ShellAnything/third_parties/RapidAssist/install/include/rapidassist-0.10.2" /external:I "C:/gitroot/ShellAnything/third_parties/libmagic/install/include"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_CRT_SECURE_NO_WARNINGS;_SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_WARNINGS;_SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\gitroot\ShellAnything\include;C:\gitroot\ShellAnything\build\include;C:\gitroot\ShellAnything\third_parties\googletest\install\include;C:\gitroot\ShellAnything\src\tests\rapidassist;C:\gitroot\ShellAnything\src\tests\libmagic;C:\gitroot\ShellAnything\src\libexprtk;C:\gitroot\ShellAnything\src\shared;C:\gitroot\ShellAnything\src\core;C:\gitroot\ShellAnything\src\logger\glog;C:\gitroot\ShellAnything\build\src\logger\glog;C:\gitroot\ShellAnything\src\windows;C:\gitroot\ShellAnything\build\src\windows;C:\gitroot\ShellAnything\third_parties\RapidAssist\install\include\rapidassist-0.10.2;C:\gitroot\ShellAnything\third_parties\libmagic\install\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\gitroot\ShellAnything\include;C:\gitroot\ShellAnything\build\include;C:\gitroot\ShellAnything\third_parties\googletest\install\include;C:\gitroot\ShellAnything\src\tests\rapidassist;C:\gitroot\ShellAnything\src\tests\libmagic;C:\gitroot\ShellAnything\src\libexprtk;C:\gitroot\ShellAnything\src\shared;C:\gitroot\ShellAnything\src\core;C:\gitroot\ShellAnything\src\logger\glog;C:\gitroot\ShellAnything\build\src\logger\glog;C:\gitroot\ShellAnything\src\windows;C:\gitroot\ShellAnything\build\src\windows;C:\gitroot\ShellAnything\third_parties\RapidAssist\install\include\rapidassist-0.10.2;C:\gitroot\ShellAnything\third_parties\libmagic\install\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>Copying test configuration files database.</Message>
+      <Command>setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E copy_directory C:/gitroot/ShellAnything/src/tests/test_files C:/gitroot/ShellAnything/build/bin/Debug/test_files
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\..\bin\Debug\sa.shared-d.lib;..\..\bin\Debug\sa.api-d.lib;..\..\bin\Debug\sa.shellextension-d.lib;..\..\bin\Debug\sa.logger.glog-d.lib;..\..\bin\Debug\sa.windows-d.lib;C:\gitroot\ShellAnything\third_parties\googletest\install\lib\gtest.lib;C:\gitroot\ShellAnything\third_parties\RapidAssist\install\lib\rapidassist-0.10.2\rapidassist.lib;C:\gitroot\ShellAnything\third_parties\libmagic\install\lib\libmagic.lib;C:\gitroot\ShellAnything\third_parties\RapidAssist\install\lib\rapidassist-0.10.2\rapidassist.lib;..\..\bin\Debug\sa.core-d.lib;..\..\bin\Debug\libexprtk-d.lib;C:\gitroot\ShellAnything\third_parties\googletest\install\lib\gtest.lib;C:\gitroot\ShellAnything\third_parties\libmagic\pcre2\install_dir\lib\pcre2-8.lib;C:\gitroot\ShellAnything\third_parties\libmagic\pcre2\install_dir\lib\pcre2-posix.lib;shlwapi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/gitroot/ShellAnything/build/bin/Debug/sa.tests-d.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/gitroot/ShellAnything/build/bin/Debug/sa.tests-d.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\gitroot\ShellAnything\include;C:\gitroot\ShellAnything\build\include;C:\gitroot\ShellAnything\third_parties\googletest\install\include;C:\gitroot\ShellAnything\src\tests\rapidassist;C:\gitroot\ShellAnything\src\tests\libmagic;C:\gitroot\ShellAnything\src\libexprtk;C:\gitroot\ShellAnything\src\shared;C:\gitroot\ShellAnything\src\core;C:\gitroot\ShellAnything\src\logger\glog;C:\gitroot\ShellAnything\build\src\logger\glog;C:\gitroot\ShellAnything\src\windows;C:\gitroot\ShellAnything\build\src\windows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/gitroot/ShellAnything/third_parties/RapidAssist/install/include/rapidassist-0.10.2" /external:I "C:/gitroot/ShellAnything/third_parties/libmagic/install/include"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\gitroot\ShellAnything\include;C:\gitroot\ShellAnything\build\include;C:\gitroot\ShellAnything\third_parties\googletest\install\include;C:\gitroot\ShellAnything\src\tests\rapidassist;C:\gitroot\ShellAnything\src\tests\libmagic;C:\gitroot\ShellAnything\src\libexprtk;C:\gitroot\ShellAnything\src\shared;C:\gitroot\ShellAnything\src\core;C:\gitroot\ShellAnything\src\logger\glog;C:\gitroot\ShellAnything\build\src\logger\glog;C:\gitroot\ShellAnything\src\windows;C:\gitroot\ShellAnything\build\src\windows;C:\gitroot\ShellAnything\third_parties\RapidAssist\install\include\rapidassist-0.10.2;C:\gitroot\ShellAnything\third_parties\libmagic\install\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\gitroot\ShellAnything\include;C:\gitroot\ShellAnything\build\include;C:\gitroot\ShellAnything\third_parties\googletest\install\include;C:\gitroot\ShellAnything\src\tests\rapidassist;C:\gitroot\ShellAnything\src\tests\libmagic;C:\gitroot\ShellAnything\src\libexprtk;C:\gitroot\ShellAnything\src\shared;C:\gitroot\ShellAnything\src\core;C:\gitroot\ShellAnything\src\logger\glog;C:\gitroot\ShellAnything\build\src\logger\glog;C:\gitroot\ShellAnything\src\windows;C:\gitroot\ShellAnything\build\src\windows;C:\gitroot\ShellAnything\third_parties\RapidAssist\install\include\rapidassist-0.10.2;C:\gitroot\ShellAnything\third_parties\libmagic\install\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>Copying test configuration files database.</Message>
+      <Command>setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E copy_directory C:/gitroot/ShellAnything/src/tests/test_files C:/gitroot/ShellAnything/build/bin/Release/test_files
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\..\bin\Release\sa.shared.lib;..\..\bin\Release\sa.api.lib;..\..\bin\Release\sa.shellextension.lib;..\..\bin\Release\sa.logger.glog.lib;..\..\bin\Release\sa.windows.lib;C:\gitroot\ShellAnything\third_parties\googletest\install\lib\gtest.lib;C:\gitroot\ShellAnything\third_parties\RapidAssist\install\lib\rapidassist-0.10.2\rapidassist.lib;C:\gitroot\ShellAnything\third_parties\libmagic\install\lib\libmagic.lib;C:\gitroot\ShellAnything\third_parties\RapidAssist\install\lib\rapidassist-0.10.2\rapidassist.lib;..\..\bin\Release\sa.core.lib;..\..\bin\Release\libexprtk.lib;C:\gitroot\ShellAnything\third_parties\googletest\install\lib\gtest.lib;C:\gitroot\ShellAnything\third_parties\libmagic\pcre2\install_dir\lib\pcre2-8.lib;C:\gitroot\ShellAnything\third_parties\libmagic\pcre2\install_dir\lib\pcre2-posix.lib;shlwapi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/gitroot/ShellAnything/build/bin/Release/sa.tests.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/gitroot/ShellAnything/build/bin/Release/sa.tests.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\gitroot\ShellAnything\include;C:\gitroot\ShellAnything\build\include;C:\gitroot\ShellAnything\third_parties\googletest\install\include;C:\gitroot\ShellAnything\src\tests\rapidassist;C:\gitroot\ShellAnything\src\tests\libmagic;C:\gitroot\ShellAnything\src\libexprtk;C:\gitroot\ShellAnything\src\shared;C:\gitroot\ShellAnything\src\core;C:\gitroot\ShellAnything\src\logger\glog;C:\gitroot\ShellAnything\build\src\logger\glog;C:\gitroot\ShellAnything\src\windows;C:\gitroot\ShellAnything\build\src\windows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/gitroot/ShellAnything/third_parties/RapidAssist/install/include/rapidassist-0.10.2" /external:I "C:/gitroot/ShellAnything/third_parties/libmagic/install/include"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\gitroot\ShellAnything\include;C:\gitroot\ShellAnything\build\include;C:\gitroot\ShellAnything\third_parties\googletest\install\include;C:\gitroot\ShellAnything\src\tests\rapidassist;C:\gitroot\ShellAnything\src\tests\libmagic;C:\gitroot\ShellAnything\src\libexprtk;C:\gitroot\ShellAnything\src\shared;C:\gitroot\ShellAnything\src\core;C:\gitroot\ShellAnything\src\logger\glog;C:\gitroot\ShellAnything\build\src\logger\glog;C:\gitroot\ShellAnything\src\windows;C:\gitroot\ShellAnything\build\src\windows;C:\gitroot\ShellAnything\third_parties\RapidAssist\install\include\rapidassist-0.10.2;C:\gitroot\ShellAnything\third_parties\libmagic\install\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\gitroot\ShellAnything\include;C:\gitroot\ShellAnything\build\include;C:\gitroot\ShellAnything\third_parties\googletest\install\include;C:\gitroot\ShellAnything\src\tests\rapidassist;C:\gitroot\ShellAnything\src\tests\libmagic;C:\gitroot\ShellAnything\src\libexprtk;C:\gitroot\ShellAnything\src\shared;C:\gitroot\ShellAnything\src\core;C:\gitroot\ShellAnything\src\logger\glog;C:\gitroot\ShellAnything\build\src\logger\glog;C:\gitroot\ShellAnything\src\windows;C:\gitroot\ShellAnything\build\src\windows;C:\gitroot\ShellAnything\third_parties\RapidAssist\install\include\rapidassist-0.10.2;C:\gitroot\ShellAnything\third_parties\libmagic\install\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>Copying test configuration files database.</Message>
+      <Command>setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E copy_directory C:/gitroot/ShellAnything/src/tests/test_files C:/gitroot/ShellAnything/build/bin/MinSizeRel/test_files
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\..\bin\MinSizeRel\sa.shared.lib;..\..\bin\MinSizeRel\sa.api.lib;..\..\bin\MinSizeRel\sa.shellextension.lib;..\..\bin\MinSizeRel\sa.logger.glog.lib;..\..\bin\MinSizeRel\sa.windows.lib;C:\gitroot\ShellAnything\third_parties\googletest\install\lib\gtest.lib;C:\gitroot\ShellAnything\third_parties\RapidAssist\install\lib\rapidassist-0.10.2\rapidassist.lib;C:\gitroot\ShellAnything\third_parties\libmagic\install\lib\libmagic.lib;C:\gitroot\ShellAnything\third_parties\RapidAssist\install\lib\rapidassist-0.10.2\rapidassist.lib;..\..\bin\MinSizeRel\sa.core.lib;..\..\bin\MinSizeRel\libexprtk.lib;C:\gitroot\ShellAnything\third_parties\googletest\install\lib\gtest.lib;C:\gitroot\ShellAnything\third_parties\libmagic\pcre2\install_dir\lib\pcre2-8.lib;C:\gitroot\ShellAnything\third_parties\libmagic\pcre2\install_dir\lib\pcre2-posix.lib;shlwapi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/gitroot/ShellAnything/build/bin/MinSizeRel/sa.tests.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/gitroot/ShellAnything/build/bin/MinSizeRel/sa.tests.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\gitroot\ShellAnything\include;C:\gitroot\ShellAnything\build\include;C:\gitroot\ShellAnything\third_parties\googletest\install\include;C:\gitroot\ShellAnything\src\tests\rapidassist;C:\gitroot\ShellAnything\src\tests\libmagic;C:\gitroot\ShellAnything\src\libexprtk;C:\gitroot\ShellAnything\src\shared;C:\gitroot\ShellAnything\src\core;C:\gitroot\ShellAnything\src\logger\glog;C:\gitroot\ShellAnything\build\src\logger\glog;C:\gitroot\ShellAnything\src\windows;C:\gitroot\ShellAnything\build\src\windows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/gitroot/ShellAnything/third_parties/RapidAssist/install/include/rapidassist-0.10.2" /external:I "C:/gitroot/ShellAnything/third_parties/libmagic/install/include"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\gitroot\ShellAnything\include;C:\gitroot\ShellAnything\build\include;C:\gitroot\ShellAnything\third_parties\googletest\install\include;C:\gitroot\ShellAnything\src\tests\rapidassist;C:\gitroot\ShellAnything\src\tests\libmagic;C:\gitroot\ShellAnything\src\libexprtk;C:\gitroot\ShellAnything\src\shared;C:\gitroot\ShellAnything\src\core;C:\gitroot\ShellAnything\src\logger\glog;C:\gitroot\ShellAnything\build\src\logger\glog;C:\gitroot\ShellAnything\src\windows;C:\gitroot\ShellAnything\build\src\windows;C:\gitroot\ShellAnything\third_parties\RapidAssist\install\include\rapidassist-0.10.2;C:\gitroot\ShellAnything\third_parties\libmagic\install\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\gitroot\ShellAnything\include;C:\gitroot\ShellAnything\build\include;C:\gitroot\ShellAnything\third_parties\googletest\install\include;C:\gitroot\ShellAnything\src\tests\rapidassist;C:\gitroot\ShellAnything\src\tests\libmagic;C:\gitroot\ShellAnything\src\libexprtk;C:\gitroot\ShellAnything\src\shared;C:\gitroot\ShellAnything\src\core;C:\gitroot\ShellAnything\src\logger\glog;C:\gitroot\ShellAnything\build\src\logger\glog;C:\gitroot\ShellAnything\src\windows;C:\gitroot\ShellAnything\build\src\windows;C:\gitroot\ShellAnything\third_parties\RapidAssist\install\include\rapidassist-0.10.2;C:\gitroot\ShellAnything\third_parties\libmagic\install\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>Copying test configuration files database.</Message>
+      <Command>setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E copy_directory C:/gitroot/ShellAnything/src/tests/test_files C:/gitroot/ShellAnything/build/bin/RelWithDebInfo/test_files
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\..\bin\RelWithDebInfo\sa.shared.lib;..\..\bin\RelWithDebInfo\sa.api.lib;..\..\bin\RelWithDebInfo\sa.shellextension.lib;..\..\bin\RelWithDebInfo\sa.logger.glog.lib;..\..\bin\RelWithDebInfo\sa.windows.lib;C:\gitroot\ShellAnything\third_parties\googletest\install\lib\gtest.lib;C:\gitroot\ShellAnything\third_parties\RapidAssist\install\lib\rapidassist-0.10.2\rapidassist.lib;C:\gitroot\ShellAnything\third_parties\libmagic\install\lib\libmagic.lib;C:\gitroot\ShellAnything\third_parties\RapidAssist\install\lib\rapidassist-0.10.2\rapidassist.lib;..\..\bin\RelWithDebInfo\sa.core.lib;..\..\bin\RelWithDebInfo\libexprtk.lib;C:\gitroot\ShellAnything\third_parties\googletest\install\lib\gtest.lib;C:\gitroot\ShellAnything\third_parties\libmagic\pcre2\install_dir\lib\pcre2-8.lib;C:\gitroot\ShellAnything\third_parties\libmagic\pcre2\install_dir\lib\pcre2-posix.lib;shlwapi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/gitroot/ShellAnything/build/bin/RelWithDebInfo/sa.tests.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/gitroot/ShellAnything/build/bin/RelWithDebInfo/sa.tests.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\gitroot\ShellAnything\src\tests\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/gitroot/ShellAnything/src/tests/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/gitroot/ShellAnything -BC:/gitroot/ShellAnything/build --check-stamp-file C:/gitroot/ShellAnything/build/src/tests/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.30\Modules\CMakeFindDependencyMacro.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.30\Modules\CheckCSourceCompiles.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.30\Modules\CheckIncludeFile.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.30\Modules\CheckLibraryExists.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.30\Modules\FindGTest.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.30\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.30\Modules\FindPackageMessage.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.30\Modules\FindThreads.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.30\Modules\GoogleTest.cmake;C:\gitroot\ShellAnything\third_parties\RapidAssist\install\lib\rapidassist-0.10.2\rapidassist-config-version.cmake;C:\gitroot\ShellAnything\third_parties\RapidAssist\install\lib\rapidassist-0.10.2\rapidassist-config.cmake;C:\gitroot\ShellAnything\third_parties\RapidAssist\install\lib\rapidassist-0.10.2\rapidassist-targets-release.cmake;C:\gitroot\ShellAnything\third_parties\RapidAssist\install\lib\rapidassist-0.10.2\rapidassist-targets.cmake;C:\gitroot\ShellAnything\third_parties\glog\install_dir\lib\cmake\glog\glog-config-version.cmake;C:\gitroot\ShellAnything\third_parties\glog\install_dir\lib\cmake\glog\glog-config.cmake;C:\gitroot\ShellAnything\third_parties\glog\install_dir\lib\cmake\glog\glog-targets-release.cmake;C:\gitroot\ShellAnything\third_parties\glog\install_dir\lib\cmake\glog\glog-targets.cmake;C:\gitroot\ShellAnything\third_parties\libmagic\install\lib\cmake\libmagic\libmagic-config.cmake;C:\gitroot\ShellAnything\third_parties\libmagic\install\lib\cmake\libmagic\libmagic-targets-release.cmake;C:\gitroot\ShellAnything\third_parties\libmagic\install\lib\cmake\libmagic\libmagic-targets.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\gitroot\ShellAnything\build\src\tests\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/gitroot/ShellAnything/src/tests/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/gitroot/ShellAnything -BC:/gitroot/ShellAnything/build --check-stamp-file C:/gitroot/ShellAnything/build/src/tests/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.30\Modules\CMakeFindDependencyMacro.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.30\Modules\CheckCSourceCompiles.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.30\Modules\CheckIncludeFile.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.30\Modules\CheckLibraryExists.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.30\Modules\FindGTest.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.30\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.30\Modules\FindPackageMessage.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.30\Modules\FindThreads.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.30\Modules\GoogleTest.cmake;C:\gitroot\ShellAnything\third_parties\RapidAssist\install\lib\rapidassist-0.10.2\rapidassist-config-version.cmake;C:\gitroot\ShellAnything\third_parties\RapidAssist\install\lib\rapidassist-0.10.2\rapidassist-config.cmake;C:\gitroot\ShellAnything\third_parties\RapidAssist\install\lib\rapidassist-0.10.2\rapidassist-targets-release.cmake;C:\gitroot\ShellAnything\third_parties\RapidAssist\install\lib\rapidassist-0.10.2\rapidassist-targets.cmake;C:\gitroot\ShellAnything\third_parties\glog\install_dir\lib\cmake\glog\glog-config-version.cmake;C:\gitroot\ShellAnything\third_parties\glog\install_dir\lib\cmake\glog\glog-config.cmake;C:\gitroot\ShellAnything\third_parties\glog\install_dir\lib\cmake\glog\glog-targets-release.cmake;C:\gitroot\ShellAnything\third_parties\glog\install_dir\lib\cmake\glog\glog-targets.cmake;C:\gitroot\ShellAnything\third_parties\libmagic\install\lib\cmake\libmagic\libmagic-config.cmake;C:\gitroot\ShellAnything\third_parties\libmagic\install\lib\cmake\libmagic\libmagic-targets-release.cmake;C:\gitroot\ShellAnything\third_parties\libmagic\install\lib\cmake\libmagic\libmagic-targets.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\gitroot\ShellAnything\build\src\tests\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/gitroot/ShellAnything/src/tests/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/gitroot/ShellAnything -BC:/gitroot/ShellAnything/build --check-stamp-file C:/gitroot/ShellAnything/build/src/tests/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.30\Modules\CMakeFindDependencyMacro.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.30\Modules\CheckCSourceCompiles.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.30\Modules\CheckIncludeFile.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.30\Modules\CheckLibraryExists.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.30\Modules\FindGTest.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.30\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.30\Modules\FindPackageMessage.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.30\Modules\FindThreads.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.30\Modules\GoogleTest.cmake;C:\gitroot\ShellAnything\third_parties\RapidAssist\install\lib\rapidassist-0.10.2\rapidassist-config-version.cmake;C:\gitroot\ShellAnything\third_parties\RapidAssist\install\lib\rapidassist-0.10.2\rapidassist-config.cmake;C:\gitroot\ShellAnything\third_parties\RapidAssist\install\lib\rapidassist-0.10.2\rapidassist-targets-release.cmake;C:\gitroot\ShellAnything\third_parties\RapidAssist\install\lib\rapidassist-0.10.2\rapidassist-targets.cmake;C:\gitroot\ShellAnything\third_parties\glog\install_dir\lib\cmake\glog\glog-config-version.cmake;C:\gitroot\ShellAnything\third_parties\glog\install_dir\lib\cmake\glog\glog-config.cmake;C:\gitroot\ShellAnything\third_parties\glog\install_dir\lib\cmake\glog\glog-targets-release.cmake;C:\gitroot\ShellAnything\third_parties\glog\install_dir\lib\cmake\glog\glog-targets.cmake;C:\gitroot\ShellAnything\third_parties\libmagic\install\lib\cmake\libmagic\libmagic-config.cmake;C:\gitroot\ShellAnything\third_parties\libmagic\install\lib\cmake\libmagic\libmagic-targets-release.cmake;C:\gitroot\ShellAnything\third_parties\libmagic\install\lib\cmake\libmagic\libmagic-targets.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\gitroot\ShellAnything\build\src\tests\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/gitroot/ShellAnything/src/tests/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/gitroot/ShellAnything -BC:/gitroot/ShellAnything/build --check-stamp-file C:/gitroot/ShellAnything/build/src/tests/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.30\Modules\CMakeFindDependencyMacro.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.30\Modules\CheckCSourceCompiles.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.30\Modules\CheckIncludeFile.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.30\Modules\CheckLibraryExists.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.30\Modules\FindGTest.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.30\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.30\Modules\FindPackageMessage.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.30\Modules\FindThreads.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.30\Modules\GoogleTest.cmake;C:\gitroot\ShellAnything\third_parties\RapidAssist\install\lib\rapidassist-0.10.2\rapidassist-config-version.cmake;C:\gitroot\ShellAnything\third_parties\RapidAssist\install\lib\rapidassist-0.10.2\rapidassist-config.cmake;C:\gitroot\ShellAnything\third_parties\RapidAssist\install\lib\rapidassist-0.10.2\rapidassist-targets-release.cmake;C:\gitroot\ShellAnything\third_parties\RapidAssist\install\lib\rapidassist-0.10.2\rapidassist-targets.cmake;C:\gitroot\ShellAnything\third_parties\glog\install_dir\lib\cmake\glog\glog-config-version.cmake;C:\gitroot\ShellAnything\third_parties\glog\install_dir\lib\cmake\glog\glog-config.cmake;C:\gitroot\ShellAnything\third_parties\glog\install_dir\lib\cmake\glog\glog-targets-release.cmake;C:\gitroot\ShellAnything\third_parties\glog\install_dir\lib\cmake\glog\glog-targets.cmake;C:\gitroot\ShellAnything\third_parties\libmagic\install\lib\cmake\libmagic\libmagic-config.cmake;C:\gitroot\ShellAnything\third_parties\libmagic\install\lib\cmake\libmagic\libmagic-targets-release.cmake;C:\gitroot\ShellAnything\third_parties\libmagic\install\lib\cmake\libmagic\libmagic-targets.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\gitroot\ShellAnything\build\src\tests\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\gitroot\ShellAnything\build\include\shellanything\version.h" />
+    <ClInclude Include="C:\gitroot\ShellAnything\build\include\shellanything\config.h" />
+    <XML Include="C:\gitroot\ShellAnything\src\tests\test_files\samples.xml">
+    </XML>
+    <XML Include="C:\gitroot\ShellAnything\src\tests\test_files\TestActionExecute.testWaitTimeout.xml">
+    </XML>
+    <XML Include="C:\gitroot\ShellAnything\src\tests\test_files\TestActionExecute.testWaitInfinite.xml">
+    </XML>
+    <XML Include="C:\gitroot\ShellAnything\src\tests\test_files\TestActionProperty.testCaptureOutput.xml">
+    </XML>
+    <XML Include="C:\gitroot\ShellAnything\src\tests\test_files\TestActionProperty.testCopyFile.xml">
+    </XML>
+    <XML Include="C:\gitroot\ShellAnything\src\tests\test_files\TestActionProperty.testFail.xml">
+    </XML>
+    <XML Include="C:\gitroot\ShellAnything\src\tests\test_files\TestActionProperty.testLiveProperties.xml">
+    </XML>
+    <XML Include="C:\gitroot\ShellAnything\src\tests\test_files\TestActionProperty.testRandomProperties.xml">
+    </XML>
+    <XML Include="C:\gitroot\ShellAnything\src\tests\test_files\TestActionProperty.testRandomPropertiesAdvanced.xml">
+    </XML>
+    <XML Include="C:\gitroot\ShellAnything\src\tests\test_files\TestActionProperty.testRegistryKey.xml">
+    </XML>
+    <XML Include="C:\gitroot\ShellAnything\src\tests\test_files\TestActionProperty.testSearchPath.xml">
+    </XML>
+    <XML Include="C:\gitroot\ShellAnything\src\tests\test_files\TestConfigManager.testAssignCommandId.1.xml">
+    </XML>
+    <XML Include="C:\gitroot\ShellAnything\src\tests\test_files\TestConfigManager.testAssignCommandId.2.xml">
+    </XML>
+    <XML Include="C:\gitroot\ShellAnything\src\tests\test_files\TestConfigManager.testAssignCommandIdsInvalid.xml">
+    </XML>
+    <XML Include="C:\gitroot\ShellAnything\src\tests\test_files\TestConfigManager.testClear.xml">
+    </XML>
+    <XML Include="C:\gitroot\ShellAnything\src\tests\test_files\TestConfigManager.testDetectNewFile.xml">
+    </XML>
+    <XML Include="C:\gitroot\ShellAnything\src\tests\test_files\TestConfigManager.testFileModifications.xml">
+    </XML>
+    <XML Include="C:\gitroot\ShellAnything\src\tests\test_files\TestConfigManager.testFindMenuByName.xml">
+    </XML>
+    <XML Include="C:\gitroot\ShellAnything\src\tests\test_files\TestConfigManager.testFindMenuByNameCaseInsensitive.xml">
+    </XML>
+    <XML Include="C:\gitroot\ShellAnything\src\tests\test_files\TestConfigManager.testFindMenuByNameExpanding.xml">
+    </XML>
+    <XML Include="C:\gitroot\ShellAnything\src\tests\test_files\TestConfigManager.testParentWithoutChildren.xml">
+    </XML>
+    <XML Include="C:\gitroot\ShellAnything\src\tests\test_files\TestConfiguration.testLoadProperties.xml">
+    </XML>
+    <None Include="C:\gitroot\ShellAnything\src\tests\test_files\TestIObject.testToLongString.expected.txt">
+    </None>
+    <XML Include="C:\gitroot\ShellAnything\src\tests\test_files\TestIObject.testToLongString.xml">
+    </XML>
+    <XML Include="C:\gitroot\ShellAnything\src\tests\test_files\TestObjectFactory.testGetParent.xml">
+    </XML>
+    <XML Include="C:\gitroot\ShellAnything\src\tests\test_files\TestObjectFactory.testParseActionExecute.xml">
+    </XML>
+    <XML Include="C:\gitroot\ShellAnything\src\tests\test_files\TestObjectFactory.testParseActionFile.xml">
+    </XML>
+    <XML Include="C:\gitroot\ShellAnything\src\tests\test_files\TestObjectFactory.testParseActionMessage.xml">
+    </XML>
+    <XML Include="C:\gitroot\ShellAnything\src\tests\test_files\TestObjectFactory.testParseActionPrompt.xml">
+    </XML>
+    <XML Include="C:\gitroot\ShellAnything\src\tests\test_files\TestObjectFactory.testParseActionProperty.xml">
+    </XML>
+    <XML Include="C:\gitroot\ShellAnything\src\tests\test_files\TestObjectFactory.testParseActionStop.xml">
+    </XML>
+    <XML Include="C:\gitroot\ShellAnything\src\tests\test_files\TestObjectFactory.testParseSeparator.xml">
+    </XML>
+    <XML Include="C:\gitroot\ShellAnything\src\tests\test_files\TestObjectFactory.testParseValidator.xml">
+    </XML>
+    <XML Include="C:\gitroot\ShellAnything\src\tests\test_files\TestObjectFactory.testParseDefaults.xml">
+    </XML>
+    <XML Include="C:\gitroot\ShellAnything\src\tests\test_files\TestObjectFactory.testParseIcon.xml">
+    </XML>
+    <XML Include="C:\gitroot\ShellAnything\src\tests\test_files\TestObjectFactory.testParseMenuMaxLength.xml">
+    </XML>
+    <XML Include="C:\gitroot\ShellAnything\src\tests\test_files\TestObjectFactory.testParsePlugins.xml">
+    </XML>
+    <XML Include="C:\gitroot\ShellAnything\src\tests\test_files\TestPlugins.testPluginActionGetData.xml">
+    </XML>
+    <XML Include="C:\gitroot\ShellAnything\src\tests\test_files\TestPlugins.testPluginInitializeAndTerminate.xml">
+    </XML>
+    <XML Include="C:\gitroot\ShellAnything\src\tests\test_files\TestPlugins.testProcess.xml">
+    </XML>
+    <XML Include="C:\gitroot\ShellAnything\src\tests\test_files\TestPlugins.testServices.xml">
+    </XML>
+    <XML Include="C:\gitroot\ShellAnything\src\tests\test_files\TestPlugins.testStrings.xml">
+    </XML>
+    <XML Include="C:\gitroot\ShellAnything\src\tests\test_files\TestPlugins.testTime.xml">
+    </XML>
+    <XML Include="C:\gitroot\ShellAnything\src\tests\test_files\tests.xml">
+    </XML>
+    <XML Include="C:\gitroot\ShellAnything\src\tests\test_files\TestTools.testArgumentsDebugger.xml">
+    </XML>
+    <ClCompile Include="C:\gitroot\ShellAnything\src\tests\TestPlugins.cpp" />
+    <ClInclude Include="C:\gitroot\ShellAnything\src\tests\TestPlugins.h" />
+    <ClCompile Include="C:\gitroot\ShellAnything\src\tests\TestActionExecute.cpp" />
+    <ClInclude Include="C:\gitroot\ShellAnything\src\tests\TestActionExecute.h" />
+    <ClCompile Include="C:\gitroot\ShellAnything\src\tests\TestActionFile.cpp" />
+    <ClInclude Include="C:\gitroot\ShellAnything\src\tests\TestActionFile.h" />
+    <ClCompile Include="C:\gitroot\ShellAnything\src\tests\TestActionProperty.cpp" />
+    <ClInclude Include="C:\gitroot\ShellAnything\src\tests\TestActionProperty.h" />
+    <ClCompile Include="C:\gitroot\ShellAnything\src\tests\TestActionStop.cpp" />
+    <ClInclude Include="C:\gitroot\ShellAnything\src\tests\TestActionStop.h" />
+    <ClCompile Include="C:\gitroot\ShellAnything\src\tests\TestBitmapCache.cpp" />
+    <ClInclude Include="C:\gitroot\ShellAnything\src\tests\TestBitmapCache.h" />
+    <ClCompile Include="C:\gitroot\ShellAnything\src\tests\TestConfigManager.cpp" />
+    <ClInclude Include="C:\gitroot\ShellAnything\src\tests\TestConfigManager.h" />
+    <ClCompile Include="C:\gitroot\ShellAnything\src\tests\TestConfiguration.cpp" />
+    <ClInclude Include="C:\gitroot\ShellAnything\src\tests\TestConfiguration.h" />
+    <ClCompile Include="C:\gitroot\ShellAnything\src\tests\TestDemoSamples.cpp" />
+    <ClInclude Include="C:\gitroot\ShellAnything\src\tests\TestDemoSamples.h" />
+    <ClCompile Include="C:\gitroot\ShellAnything\src\tests\TestEnvironment.cpp" />
+    <ClInclude Include="C:\gitroot\ShellAnything\src\tests\TestEnvironment.h" />
+    <ClCompile Include="C:\gitroot\ShellAnything\src\tests\TestGlogUtils.cpp" />
+    <ClInclude Include="C:\gitroot\ShellAnything\src\tests\TestGlogUtils.h" />
+    <ClCompile Include="C:\gitroot\ShellAnything\src\tests\TestIcon.cpp" />
+    <ClInclude Include="C:\gitroot\ShellAnything\src\tests\TestIcon.h" />
+    <ClCompile Include="C:\gitroot\ShellAnything\src\tests\TestInputBox.cpp" />
+    <ClInclude Include="C:\gitroot\ShellAnything\src\tests\TestInputBox.h" />
+    <ClCompile Include="C:\gitroot\ShellAnything\src\tests\TestIObject.cpp" />
+    <ClInclude Include="C:\gitroot\ShellAnything\src\tests\TestIObject.h" />
+    <ClCompile Include="C:\gitroot\ShellAnything\src\tests\TestKeyboardService.cpp" />
+    <ClInclude Include="C:\gitroot\ShellAnything\src\tests\TestKeyboardService.h" />
+    <ClCompile Include="C:\gitroot\ShellAnything\src\tests\TestLibExprtk.cpp" />
+    <ClInclude Include="C:\gitroot\ShellAnything\src\tests\TestLibExprtk.h" />
+    <ClCompile Include="C:\gitroot\ShellAnything\src\tests\TestLoggerHelper.cpp" />
+    <ClInclude Include="C:\gitroot\ShellAnything\src\tests\TestLoggerHelper.h" />
+    <ClCompile Include="C:\gitroot\ShellAnything\src\tests\TestMenu.cpp" />
+    <ClInclude Include="C:\gitroot\ShellAnything\src\tests\TestMenu.h" />
+    <ClCompile Include="C:\gitroot\ShellAnything\src\tests\TestObjectFactory.cpp" />
+    <ClInclude Include="C:\gitroot\ShellAnything\src\tests\TestObjectFactory.h" />
+    <ClCompile Include="C:\gitroot\ShellAnything\src\tests\TestPropertyManager.cpp" />
+    <ClInclude Include="C:\gitroot\ShellAnything\src\tests\TestPropertyManager.h" />
+    <ClCompile Include="C:\gitroot\ShellAnything\src\tests\TestRandomHelper.cpp" />
+    <ClInclude Include="C:\gitroot\ShellAnything\src\tests\TestRandomHelper.h" />
+    <ClCompile Include="C:\gitroot\ShellAnything\src\tests\TestRandomService.cpp" />
+    <ClInclude Include="C:\gitroot\ShellAnything\src\tests\TestRandomService.h" />
+    <ClCompile Include="C:\gitroot\ShellAnything\src\tests\TestSaUtils.cpp" />
+    <ClInclude Include="C:\gitroot\ShellAnything\src\tests\TestSaUtils.h" />
+    <ClCompile Include="C:\gitroot\ShellAnything\src\tests\TestSelectionContext.cpp" />
+    <ClInclude Include="C:\gitroot\ShellAnything\src\tests\TestSelectionContext.h" />
+    <ClCompile Include="C:\gitroot\ShellAnything\src\tests\TestShellExtension.cpp" />
+    <ClInclude Include="C:\gitroot\ShellAnything\src\tests\TestShellExtension.h" />
+    <ClCompile Include="C:\gitroot\ShellAnything\src\tests\TestTools.cpp" />
+    <ClInclude Include="C:\gitroot\ShellAnything\src\tests\TestTools.h" />
+    <ClCompile Include="C:\gitroot\ShellAnything\src\tests\TestUnicode.cpp" />
+    <ClInclude Include="C:\gitroot\ShellAnything\src\tests\TestUnicode.h" />
+    <ClCompile Include="C:\gitroot\ShellAnything\src\tests\TestValidator.cpp" />
+    <ClInclude Include="C:\gitroot\ShellAnything\src\tests\TestValidator.h" />
+    <ClCompile Include="C:\gitroot\ShellAnything\src\tests\TestWildcard.cpp" />
+    <ClInclude Include="C:\gitroot\ShellAnything\src\tests\TestWildcard.h" />
+    <ClCompile Include="C:\gitroot\ShellAnything\src\tests\TestWin32Clipboard.cpp" />
+    <ClInclude Include="C:\gitroot\ShellAnything\src\tests\TestWin32Clipboard.h" />
+    <ClCompile Include="C:\gitroot\ShellAnything\src\tests\TestWin32Registry.cpp" />
+    <ClInclude Include="C:\gitroot\ShellAnything\src\tests\TestWin32Registry.h" />
+    <ClCompile Include="C:\gitroot\ShellAnything\src\tests\TestWin32Utils.cpp" />
+    <ClInclude Include="C:\gitroot\ShellAnything\src\tests\TestWin32Utils.h" />
+    <ClCompile Include="C:\gitroot\ShellAnything\src\tests\TestWorkspace.cpp" />
+    <ClInclude Include="C:\gitroot\ShellAnything\src\tests\TestWorkspace.h" />
+    <ClCompile Include="C:\gitroot\ShellAnything\src\tests\ArgumentsHandler.cpp" />
+    <ClInclude Include="C:\gitroot\ShellAnything\src\tests\ArgumentsHandler.h" />
+    <ClCompile Include="C:\gitroot\ShellAnything\src\tests\LockFile.cpp" />
+    <ClInclude Include="C:\gitroot\ShellAnything\src\tests\LockFile.h" />
+    <ClCompile Include="C:\gitroot\ShellAnything\src\tests\main.cpp" />
+    <ClCompile Include="C:\gitroot\ShellAnything\src\tests\QuickLoader.cpp" />
+    <ClInclude Include="C:\gitroot\ShellAnything\src\tests\QuickLoader.h" />
+    <ClCompile Include="C:\gitroot\ShellAnything\src\tests\Workspace.cpp" />
+    <ClInclude Include="C:\gitroot\ShellAnything\src\tests\Workspace.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\gitroot\ShellAnything\build\ZERO_CHECK.vcxproj">
+      <Project>{B4848014-54FA-37A2-A1BA-9F7A5B88B0C7}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\gitroot\ShellAnything\build\src\libexprtk\libexprtk.vcxproj">
+      <Project>{8230CF58-ABA6-3146-93D7-CFD8AD540998}</Project>
+      <Name>libexprtk</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\gitroot\ShellAnything\build\src\api\sa.api.vcxproj">
+      <Project>{10462EB2-6E73-39A9-BEBB-3A3423BAC716}</Project>
+      <Name>sa.api</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\gitroot\ShellAnything\build\src\core\sa.core.vcxproj">
+      <Project>{81C0B21A-7ECE-3001-A110-C8C5C9699FB2}</Project>
+      <Name>sa.core</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\gitroot\ShellAnything\build\src\logger\glog\sa.logger.glog.vcxproj">
+      <Project>{42C9C427-A5C2-3666-B53D-9FDBB5A5C17D}</Project>
+      <Name>sa.logger.glog</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\gitroot\ShellAnything\build\src\shared\sa.shared.vcxproj">
+      <Project>{110F5C87-32D8-3631-8DDC-6BE1F99330C4}</Project>
+      <Name>sa.shared</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\gitroot\ShellAnything\build\src\shellextension\sa.shellextension.vcxproj">
+      <Project>{A566CEF0-E19C-37AF-9720-E169B58D0120}</Project>
+      <Name>sa.shellextension</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\gitroot\ShellAnything\build\src\windows\sa.windows.vcxproj">
+      <Project>{CD66DC76-E21F-363F-B410-CDE38C1321D2}</Project>
+      <Name>sa.windows</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,394 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\gitroot\ShellAnything\src\tests\TestPlugins.cpp">
+      <Filter>Test Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\gitroot\ShellAnything\src\tests\TestActionExecute.cpp">
+      <Filter>Test Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\gitroot\ShellAnything\src\tests\TestActionFile.cpp">
+      <Filter>Test Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\gitroot\ShellAnything\src\tests\TestActionProperty.cpp">
+      <Filter>Test Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\gitroot\ShellAnything\src\tests\TestActionStop.cpp">
+      <Filter>Test Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\gitroot\ShellAnything\src\tests\TestBitmapCache.cpp">
+      <Filter>Test Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\gitroot\ShellAnything\src\tests\TestConfigManager.cpp">
+      <Filter>Test Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\gitroot\ShellAnything\src\tests\TestConfiguration.cpp">
+      <Filter>Test Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\gitroot\ShellAnything\src\tests\TestDemoSamples.cpp">
+      <Filter>Test Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\gitroot\ShellAnything\src\tests\TestEnvironment.cpp">
+      <Filter>Test Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\gitroot\ShellAnything\src\tests\TestGlogUtils.cpp">
+      <Filter>Test Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\gitroot\ShellAnything\src\tests\TestIcon.cpp">
+      <Filter>Test Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\gitroot\ShellAnything\src\tests\TestInputBox.cpp">
+      <Filter>Test Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\gitroot\ShellAnything\src\tests\TestIObject.cpp">
+      <Filter>Test Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\gitroot\ShellAnything\src\tests\TestKeyboardService.cpp">
+      <Filter>Test Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\gitroot\ShellAnything\src\tests\TestLibExprtk.cpp">
+      <Filter>Test Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\gitroot\ShellAnything\src\tests\TestLoggerHelper.cpp">
+      <Filter>Test Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\gitroot\ShellAnything\src\tests\TestMenu.cpp">
+      <Filter>Test Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\gitroot\ShellAnything\src\tests\TestObjectFactory.cpp">
+      <Filter>Test Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\gitroot\ShellAnything\src\tests\TestPropertyManager.cpp">
+      <Filter>Test Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\gitroot\ShellAnything\src\tests\TestRandomHelper.cpp">
+      <Filter>Test Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\gitroot\ShellAnything\src\tests\TestRandomService.cpp">
+      <Filter>Test Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\gitroot\ShellAnything\src\tests\TestSaUtils.cpp">
+      <Filter>Test Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\gitroot\ShellAnything\src\tests\TestSelectionContext.cpp">
+      <Filter>Test Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\gitroot\ShellAnything\src\tests\TestShellExtension.cpp">
+      <Filter>Test Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\gitroot\ShellAnything\src\tests\TestTools.cpp">
+      <Filter>Test Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\gitroot\ShellAnything\src\tests\TestUnicode.cpp">
+      <Filter>Test Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\gitroot\ShellAnything\src\tests\TestValidator.cpp">
+      <Filter>Test Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\gitroot\ShellAnything\src\tests\TestWildcard.cpp">
+      <Filter>Test Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\gitroot\ShellAnything\src\tests\TestWin32Clipboard.cpp">
+      <Filter>Test Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\gitroot\ShellAnything\src\tests\TestWin32Registry.cpp">
+      <Filter>Test Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\gitroot\ShellAnything\src\tests\TestWin32Utils.cpp">
+      <Filter>Test Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\gitroot\ShellAnything\src\tests\TestWorkspace.cpp">
+      <Filter>Test Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\gitroot\ShellAnything\src\tests\ArgumentsHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\gitroot\ShellAnything\src\tests\LockFile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\gitroot\ShellAnything\src\tests\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\gitroot\ShellAnything\src\tests\QuickLoader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\gitroot\ShellAnything\src\tests\Workspace.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\gitroot\ShellAnything\build\include\shellanything\version.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\gitroot\ShellAnything\build\include\shellanything\config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\gitroot\ShellAnything\src\tests\TestPlugins.h">
+      <Filter>Test Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\gitroot\ShellAnything\src\tests\TestActionExecute.h">
+      <Filter>Test Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\gitroot\ShellAnything\src\tests\TestActionFile.h">
+      <Filter>Test Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\gitroot\ShellAnything\src\tests\TestActionProperty.h">
+      <Filter>Test Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\gitroot\ShellAnything\src\tests\TestActionStop.h">
+      <Filter>Test Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\gitroot\ShellAnything\src\tests\TestBitmapCache.h">
+      <Filter>Test Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\gitroot\ShellAnything\src\tests\TestConfigManager.h">
+      <Filter>Test Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\gitroot\ShellAnything\src\tests\TestConfiguration.h">
+      <Filter>Test Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\gitroot\ShellAnything\src\tests\TestDemoSamples.h">
+      <Filter>Test Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\gitroot\ShellAnything\src\tests\TestEnvironment.h">
+      <Filter>Test Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\gitroot\ShellAnything\src\tests\TestGlogUtils.h">
+      <Filter>Test Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\gitroot\ShellAnything\src\tests\TestIcon.h">
+      <Filter>Test Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\gitroot\ShellAnything\src\tests\TestInputBox.h">
+      <Filter>Test Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\gitroot\ShellAnything\src\tests\TestIObject.h">
+      <Filter>Test Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\gitroot\ShellAnything\src\tests\TestKeyboardService.h">
+      <Filter>Test Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\gitroot\ShellAnything\src\tests\TestLibExprtk.h">
+      <Filter>Test Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\gitroot\ShellAnything\src\tests\TestLoggerHelper.h">
+      <Filter>Test Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\gitroot\ShellAnything\src\tests\TestMenu.h">
+      <Filter>Test Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\gitroot\ShellAnything\src\tests\TestObjectFactory.h">
+      <Filter>Test Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\gitroot\ShellAnything\src\tests\TestPropertyManager.h">
+      <Filter>Test Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\gitroot\ShellAnything\src\tests\TestRandomHelper.h">
+      <Filter>Test Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\gitroot\ShellAnything\src\tests\TestRandomService.h">
+      <Filter>Test Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\gitroot\ShellAnything\src\tests\TestSaUtils.h">
+      <Filter>Test Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\gitroot\ShellAnything\src\tests\TestSelectionContext.h">
+      <Filter>Test Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\gitroot\ShellAnything\src\tests\TestShellExtension.h">
+      <Filter>Test Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\gitroot\ShellAnything\src\tests\TestTools.h">
+      <Filter>Test Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\gitroot\ShellAnything\src\tests\TestUnicode.h">
+      <Filter>Test Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\gitroot\ShellAnything\src\tests\TestValidator.h">
+      <Filter>Test Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\gitroot\ShellAnything\src\tests\TestWildcard.h">
+      <Filter>Test Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\gitroot\ShellAnything\src\tests\TestWin32Clipboard.h">
+      <Filter>Test Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\gitroot\ShellAnything\src\tests\TestWin32Registry.h">
+      <Filter>Test Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\gitroot\ShellAnything\src\tests\TestWin32Utils.h">
+      <Filter>Test Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\gitroot\ShellAnything\src\tests\TestWorkspace.h">
+      <Filter>Test Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\gitroot\ShellAnything\src\tests\ArgumentsHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\gitroot\ShellAnything\src\tests\LockFile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\gitroot\ShellAnything\src\tests\QuickLoader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\gitroot\ShellAnything\src\tests\Workspace.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\gitroot\ShellAnything\src\tests\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\gitroot\ShellAnything\src\tests\test_files\TestIObject.testToLongString.expected.txt">
+      <Filter>Test Data Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <XML Include="C:\gitroot\ShellAnything\src\tests\test_files\samples.xml">
+      <Filter>Test Data Files</Filter>
+    </XML>
+    <XML Include="C:\gitroot\ShellAnything\src\tests\test_files\TestActionExecute.testWaitTimeout.xml">
+      <Filter>Test Data Files</Filter>
+    </XML>
+    <XML Include="C:\gitroot\ShellAnything\src\tests\test_files\TestActionExecute.testWaitInfinite.xml">
+      <Filter>Test Data Files</Filter>
+    </XML>
+    <XML Include="C:\gitroot\ShellAnything\src\tests\test_files\TestActionProperty.testCaptureOutput.xml">
+      <Filter>Test Data Files</Filter>
+    </XML>
+    <XML Include="C:\gitroot\ShellAnything\src\tests\test_files\TestActionProperty.testCopyFile.xml">
+      <Filter>Test Data Files</Filter>
+    </XML>
+    <XML Include="C:\gitroot\ShellAnything\src\tests\test_files\TestActionProperty.testFail.xml">
+      <Filter>Test Data Files</Filter>
+    </XML>
+    <XML Include="C:\gitroot\ShellAnything\src\tests\test_files\TestActionProperty.testLiveProperties.xml">
+      <Filter>Test Data Files</Filter>
+    </XML>
+    <XML Include="C:\gitroot\ShellAnything\src\tests\test_files\TestActionProperty.testRandomProperties.xml">
+      <Filter>Test Data Files</Filter>
+    </XML>
+    <XML Include="C:\gitroot\ShellAnything\src\tests\test_files\TestActionProperty.testRandomPropertiesAdvanced.xml">
+      <Filter>Test Data Files</Filter>
+    </XML>
+    <XML Include="C:\gitroot\ShellAnything\src\tests\test_files\TestActionProperty.testRegistryKey.xml">
+      <Filter>Test Data Files</Filter>
+    </XML>
+    <XML Include="C:\gitroot\ShellAnything\src\tests\test_files\TestActionProperty.testSearchPath.xml">
+      <Filter>Test Data Files</Filter>
+    </XML>
+    <XML Include="C:\gitroot\ShellAnything\src\tests\test_files\TestConfigManager.testAssignCommandId.1.xml">
+      <Filter>Test Data Files</Filter>
+    </XML>
+    <XML Include="C:\gitroot\ShellAnything\src\tests\test_files\TestConfigManager.testAssignCommandId.2.xml">
+      <Filter>Test Data Files</Filter>
+    </XML>
+    <XML Include="C:\gitroot\ShellAnything\src\tests\test_files\TestConfigManager.testAssignCommandIdsInvalid.xml">
+      <Filter>Test Data Files</Filter>
+    </XML>
+    <XML Include="C:\gitroot\ShellAnything\src\tests\test_files\TestConfigManager.testClear.xml">
+      <Filter>Test Data Files</Filter>
+    </XML>
+    <XML Include="C:\gitroot\ShellAnything\src\tests\test_files\TestConfigManager.testDetectNewFile.xml">
+      <Filter>Test Data Files</Filter>
+    </XML>
+    <XML Include="C:\gitroot\ShellAnything\src\tests\test_files\TestConfigManager.testFileModifications.xml">
+      <Filter>Test Data Files</Filter>
+    </XML>
+    <XML Include="C:\gitroot\ShellAnything\src\tests\test_files\TestConfigManager.testFindMenuByName.xml">
+      <Filter>Test Data Files</Filter>
+    </XML>
+    <XML Include="C:\gitroot\ShellAnything\src\tests\test_files\TestConfigManager.testFindMenuByNameCaseInsensitive.xml">
+      <Filter>Test Data Files</Filter>
+    </XML>
+    <XML Include="C:\gitroot\ShellAnything\src\tests\test_files\TestConfigManager.testFindMenuByNameExpanding.xml">
+      <Filter>Test Data Files</Filter>
+    </XML>
+    <XML Include="C:\gitroot\ShellAnything\src\tests\test_files\TestConfigManager.testParentWithoutChildren.xml">
+      <Filter>Test Data Files</Filter>
+    </XML>
+    <XML Include="C:\gitroot\ShellAnything\src\tests\test_files\TestConfiguration.testLoadProperties.xml">
+      <Filter>Test Data Files</Filter>
+    </XML>
+    <XML Include="C:\gitroot\ShellAnything\src\tests\test_files\TestIObject.testToLongString.xml">
+      <Filter>Test Data Files</Filter>
+    </XML>
+    <XML Include="C:\gitroot\ShellAnything\src\tests\test_files\TestObjectFactory.testGetParent.xml">
+      <Filter>Test Data Files</Filter>
+    </XML>
+    <XML Include="C:\gitroot\ShellAnything\src\tests\test_files\TestObjectFactory.testParseActionExecute.xml">
+      <Filter>Test Data Files</Filter>
+    </XML>
+    <XML Include="C:\gitroot\ShellAnything\src\tests\test_files\TestObjectFactory.testParseActionFile.xml">
+      <Filter>Test Data Files</Filter>
+    </XML>
+    <XML Include="C:\gitroot\ShellAnything\src\tests\test_files\TestObjectFactory.testParseActionMessage.xml">
+      <Filter>Test Data Files</Filter>
+    </XML>
+    <XML Include="C:\gitroot\ShellAnything\src\tests\test_files\TestObjectFactory.testParseActionPrompt.xml">
+      <Filter>Test Data Files</Filter>
+    </XML>
+    <XML Include="C:\gitroot\ShellAnything\src\tests\test_files\TestObjectFactory.testParseActionProperty.xml">
+      <Filter>Test Data Files</Filter>
+    </XML>
+    <XML Include="C:\gitroot\ShellAnything\src\tests\test_files\TestObjectFactory.testParseActionStop.xml">
+      <Filter>Test Data Files</Filter>
+    </XML>
+    <XML Include="C:\gitroot\ShellAnything\src\tests\test_files\TestObjectFactory.testParseSeparator.xml">
+      <Filter>Test Data Files</Filter>
+    </XML>
+    <XML Include="C:\gitroot\ShellAnything\src\tests\test_files\TestObjectFactory.testParseValidator.xml">
+      <Filter>Test Data Files</Filter>
+    </XML>
+    <XML Include="C:\gitroot\ShellAnything\src\tests\test_files\TestObjectFactory.testParseDefaults.xml">
+      <Filter>Test Data Files</Filter>
+    </XML>
+    <XML Include="C:\gitroot\ShellAnything\src\tests\test_files\TestObjectFactory.testParseIcon.xml">
+      <Filter>Test Data Files</Filter>
+    </XML>
+    <XML Include="C:\gitroot\ShellAnything\src\tests\test_files\TestObjectFactory.testParseMenuMaxLength.xml">
+      <Filter>Test Data Files</Filter>
+    </XML>
+    <XML Include="C:\gitroot\ShellAnything\src\tests\test_files\TestObjectFactory.testParsePlugins.xml">
+      <Filter>Test Data Files</Filter>
+    </XML>
+    <XML Include="C:\gitroot\ShellAnything\src\tests\test_files\TestPlugins.testPluginActionGetData.xml">
+      <Filter>Test Data Files</Filter>
+    </XML>
+    <XML Include="C:\gitroot\ShellAnything\src\tests\test_files\TestPlugins.testPluginInitializeAndTerminate.xml">
+      <Filter>Test Data Files</Filter>
+    </XML>
+    <XML Include="C:\gitroot\ShellAnything\src\tests\test_files\TestPlugins.testProcess.xml">
+      <Filter>Test Data Files</Filter>
+    </XML>
+    <XML Include="C:\gitroot\ShellAnything\src\tests\test_files\TestPlugins.testServices.xml">
+      <Filter>Test Data Files</Filter>
+    </XML>
+    <XML Include="C:\gitroot\ShellAnything\src\tests\test_files\TestPlugins.testStrings.xml">
+      <Filter>Test Data Files</Filter>
+    </XML>
+    <XML Include="C:\gitroot\ShellAnything\src\tests\test_files\TestPlugins.testTime.xml">
+      <Filter>Test Data Files</Filter>
+    </XML>
+    <XML Include="C:\gitroot\ShellAnything\src\tests\test_files\tests.xml">
+      <Filter>Test Data Files</Filter>
+    </XML>
+    <XML Include="C:\gitroot\ShellAnything\src\tests\test_files\TestTools.testArgumentsDebugger.xml">
+      <Filter>Test Data Files</Filter>
+    </XML>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{19E7E00D-C1A3-3DB4-92D4-8E2AB74628FD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{234B78A9-2870-3091-9317-9AA72131AA7F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test Data Files">
+      <UniqueIdentifier>{DDBC6A20-00C1-33BE-B892-243612AC4980}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test Source Files">
+      <UniqueIdentifier>{D1B6D8A8-6DA7-3CAA-B185-3E5A2160FF8C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

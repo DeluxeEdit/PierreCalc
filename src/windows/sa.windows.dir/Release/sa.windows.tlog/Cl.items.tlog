@@ -1,0 +1,8 @@
+C:\gitroot\ShellAnything\src\windows\dllmain.cpp;C:\gitroot\ShellAnything\build\src\windows\sa.windows.dir\Release\dllmain.obj
+C:\gitroot\ShellAnything\src\windows\LegacyIconResolutionService.cpp;C:\gitroot\ShellAnything\build\src\windows\sa.windows.dir\Release\LegacyIconResolutionService.obj
+C:\gitroot\ShellAnything\src\windows\Win32Clipboard.cpp;C:\gitroot\ShellAnything\build\src\windows\sa.windows.dir\Release\Win32Clipboard.obj
+C:\gitroot\ShellAnything\src\windows\WindowsClipboardService.cpp;C:\gitroot\ShellAnything\build\src\windows\sa.windows.dir\Release\WindowsClipboardService.obj
+C:\gitroot\ShellAnything\src\windows\WindowsIconResolutionService.cpp;C:\gitroot\ShellAnything\build\src\windows\sa.windows.dir\Release\WindowsIconResolutionService.obj
+C:\gitroot\ShellAnything\src\windows\WindowsKeyboardService.cpp;C:\gitroot\ShellAnything\build\src\windows\sa.windows.dir\Release\WindowsKeyboardService.obj
+C:\gitroot\ShellAnything\src\windows\WindowsProcessLauncherService.cpp;C:\gitroot\ShellAnything\build\src\windows\sa.windows.dir\Release\WindowsProcessLauncherService.obj
+C:\gitroot\ShellAnything\src\windows\WindowsRegistryService.cpp;C:\gitroot\ShellAnything\build\src\windows\sa.windows.dir\Release\WindowsRegistryService.obj

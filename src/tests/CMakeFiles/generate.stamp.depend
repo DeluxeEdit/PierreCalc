@@ -1,0 +1,22 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CheckCSourceCompiles.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CheckIncludeFile.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CheckLibraryExists.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/FindGTest.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/FindPackageMessage.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/FindThreads.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/GoogleTest.cmake
+C:/gitroot/ShellAnything/src/tests/CMakeLists.txt
+C:/gitroot/ShellAnything/third_parties/RapidAssist/install/lib/rapidassist-0.10.2/rapidassist-config-version.cmake
+C:/gitroot/ShellAnything/third_parties/RapidAssist/install/lib/rapidassist-0.10.2/rapidassist-config.cmake
+C:/gitroot/ShellAnything/third_parties/RapidAssist/install/lib/rapidassist-0.10.2/rapidassist-targets-release.cmake
+C:/gitroot/ShellAnything/third_parties/RapidAssist/install/lib/rapidassist-0.10.2/rapidassist-targets.cmake
+C:/gitroot/ShellAnything/third_parties/glog/install_dir/lib/cmake/glog/glog-config-version.cmake
+C:/gitroot/ShellAnything/third_parties/glog/install_dir/lib/cmake/glog/glog-config.cmake
+C:/gitroot/ShellAnything/third_parties/glog/install_dir/lib/cmake/glog/glog-targets-release.cmake
+C:/gitroot/ShellAnything/third_parties/glog/install_dir/lib/cmake/glog/glog-targets.cmake
+C:/gitroot/ShellAnything/third_parties/libmagic/install/lib/cmake/libmagic/libmagic-config.cmake
+C:/gitroot/ShellAnything/third_parties/libmagic/install/lib/cmake/libmagic/libmagic-targets-release.cmake
+C:/gitroot/ShellAnything/third_parties/libmagic/install/lib/cmake/libmagic/libmagic-targets.cmake

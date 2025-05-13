@@ -1,0 +1,81 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\gitroot\\ShellExtensions\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7AB02C08-58CA-4CA0-AE54-E34E4916E19B}|SADeluxeEdiitShellExtension\\SADeluxeEdiitShellExtension.vcxproj|C:\\gitroot\\ShellAnything\\src\\plugins\\sa_plugin_demo\\sa_plugin_demo.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4848014-54FA-37A2-A1BA-9F7A5B88B0C7}|ZERO_CHECK.vcxproj|C:\\gitroot\\ShellAnything\\build\\CMakeFiles\\cf887119fecc195d54f99a1eb8b884e3\\generate.stamp.rule||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\gitroot\\ShellAnything\\install\\include\\shellanything-0.11.0\\shellanything\\sa_plugin.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\gitroot\\ShellAnything\\install\\include\\shellanything-0.11.0\\shellanything\\config.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "config.h",
+              "DocumentMoniker": "C:\\gitroot\\ShellAnything\\install\\include\\shellanything-0.11.0\\shellanything\\config.h",
+              "RelativeDocumentMoniker": "..\\ShellAnything\\install\\include\\shellanything-0.11.0\\shellanything\\config.h",
+              "ToolTip": "C:\\gitroot\\ShellAnything\\install\\include\\shellanything-0.11.0\\shellanything\\config.h",
+              "RelativeToolTip": "..\\ShellAnything\\install\\include\\shellanything-0.11.0\\shellanything\\config.h",
+              "ViewState": "AgIAABIAAAAAAAAAAAAIwCEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-05-08T15:07:14.718Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "sa_plugin_demo.cpp",
+              "DocumentMoniker": "C:\\gitroot\\ShellAnything\\src\\plugins\\sa_plugin_demo\\sa_plugin_demo.cpp",
+              "RelativeDocumentMoniker": "..\\ShellAnything\\src\\plugins\\sa_plugin_demo\\sa_plugin_demo.cpp",
+              "ToolTip": "C:\\gitroot\\ShellAnything\\src\\plugins\\sa_plugin_demo\\sa_plugin_demo.cpp",
+              "RelativeToolTip": "..\\ShellAnything\\src\\plugins\\sa_plugin_demo\\sa_plugin_demo.cpp",
+              "ViewState": "AgIAABoAAAAAAAAAAAAIwCQAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-05-08T14:47:12.675Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "generate.stamp.rule",
+              "DocumentMoniker": "C:\\gitroot\\ShellAnything\\build\\CMakeFiles\\cf887119fecc195d54f99a1eb8b884e3\\generate.stamp.rule",
+              "RelativeDocumentMoniker": "..\\ShellAnything\\build\\CMakeFiles\\cf887119fecc195d54f99a1eb8b884e3\\generate.stamp.rule",
+              "ToolTip": "C:\\gitroot\\ShellAnything\\build\\CMakeFiles\\cf887119fecc195d54f99a1eb8b884e3\\generate.stamp.rule",
+              "RelativeToolTip": "..\\ShellAnything\\build\\CMakeFiles\\cf887119fecc195d54f99a1eb8b884e3\\generate.stamp.rule",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-05-08T13:59:56.869Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "sa_plugin.h",
+              "DocumentMoniker": "C:\\gitroot\\ShellAnything\\install\\include\\shellanything-0.11.0\\shellanything\\sa_plugin.h",
+              "RelativeDocumentMoniker": "..\\ShellAnything\\install\\include\\shellanything-0.11.0\\shellanything\\sa_plugin.h",
+              "ToolTip": "C:\\gitroot\\ShellAnything\\install\\include\\shellanything-0.11.0\\shellanything\\sa_plugin.h",
+              "RelativeToolTip": "..\\ShellAnything\\install\\include\\shellanything-0.11.0\\shellanything\\sa_plugin.h",
+              "ViewState": "AgIAABIAAAAAAAAAAAAUwCAAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-05-08T13:26:50.733Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

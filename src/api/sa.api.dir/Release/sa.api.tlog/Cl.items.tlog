@@ -1,0 +1,17 @@
+C:\gitroot\ShellAnything\src\api\sa_action.cpp;C:\gitroot\ShellAnything\build\src\api\sa.api.dir\Release\sa_action.obj
+C:\gitroot\ShellAnything\src\api\sa_cfgmgr.cpp;C:\gitroot\ShellAnything\build\src\api\sa.api.dir\Release\sa_cfgmgr.obj
+C:\gitroot\ShellAnything\src\api\sa_configuration.cpp;C:\gitroot\ShellAnything\build\src\api\sa.api.dir\Release\sa_configuration.obj
+C:\gitroot\ShellAnything\src\api\sa_selection_context.cpp;C:\gitroot\ShellAnything\build\src\api\sa.api.dir\Release\sa_selection_context.obj
+C:\gitroot\ShellAnything\src\api\sa_error.cpp;C:\gitroot\ShellAnything\build\src\api\sa.api.dir\Release\sa_error.obj
+C:\gitroot\ShellAnything\src\api\sa_icon.cpp;C:\gitroot\ShellAnything\build\src\api\sa.api.dir\Release\sa_icon.obj
+C:\gitroot\ShellAnything\src\api\sa_logging.cpp;C:\gitroot\ShellAnything\build\src\api\sa.api.dir\Release\sa_logging.obj
+C:\gitroot\ShellAnything\src\api\sa_memory.cpp;C:\gitroot\ShellAnything\build\src\api\sa.api.dir\Release\sa_memory.obj
+C:\gitroot\ShellAnything\src\api\sa_menu.cpp;C:\gitroot\ShellAnything\build\src\api\sa.api.dir\Release\sa_menu.obj
+C:\gitroot\ShellAnything\src\api\sa_plugin.cpp;C:\gitroot\ShellAnything\build\src\api\sa.api.dir\Release\sa_plugin.obj
+C:\gitroot\ShellAnything\src\api\sa_private_casting.cpp;C:\gitroot\ShellAnything\build\src\api\sa.api.dir\Release\sa_private_casting.obj
+C:\gitroot\ShellAnything\src\api\sa_properties.cpp;C:\gitroot\ShellAnything\build\src\api\sa.api.dir\Release\sa_properties.obj
+C:\gitroot\ShellAnything\src\api\sa_property_store.cpp;C:\gitroot\ShellAnything\build\src\api\sa.api.dir\Release\sa_property_store.obj
+C:\gitroot\ShellAnything\src\api\sa_string.cpp;C:\gitroot\ShellAnything\build\src\api\sa.api.dir\Release\sa_string.obj
+C:\gitroot\ShellAnything\src\api\sa_string_private.cpp;C:\gitroot\ShellAnything\build\src\api\sa.api.dir\Release\sa_string_private.obj
+C:\gitroot\ShellAnything\src\api\sa_validator.cpp;C:\gitroot\ShellAnything\build\src\api\sa.api.dir\Release\sa_validator.obj
+C:\gitroot\ShellAnything\src\api\sa_xml.cpp;C:\gitroot\ShellAnything\build\src\api\sa.api.dir\Release\sa_xml.obj
