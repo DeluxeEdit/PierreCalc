@@ -1,5 +1,0 @@
-# CMake generation dependency list for this directory.
-C:/gitroot/ShellAnything/src/plugins/sa_plugin_process/CMakeLists.txt
-C:/gitroot/ShellAnything/third_parties/RapidAssist/install/lib/rapidassist-0.10.2/rapidassist-config-version.cmake
-C:/gitroot/ShellAnything/third_parties/RapidAssist/install/lib/rapidassist-0.10.2/rapidassist-config.cmake
-C:/gitroot/ShellAnything/third_parties/RapidAssist/install/lib/rapidassist-0.10.2/rapidassist-targets.cmake

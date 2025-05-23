@@ -1,7 +1,0 @@
-C:\gitroot\ShellAnything\src\shellextension\CContextMenu.cpp;C:\gitroot\ShellAnything\build\src\shellextension\sa.shellextension.dir\Release\CContextMenu.obj
-C:\gitroot\ShellAnything\src\shellextension\CCriticalSection.cpp;C:\gitroot\ShellAnything\build\src\shellextension\sa.shellextension.dir\Release\CCriticalSection.obj
-C:\gitroot\ShellAnything\src\shellextension\dllmain.cpp;C:\gitroot\ShellAnything\build\src\shellextension\sa.shellextension.dir\Release\dllmain.obj
-C:\gitroot\ShellAnything\src\shellextension\Reg.cpp;C:\gitroot\ShellAnything\build\src\shellextension\sa.shellextension.dir\Release\Reg.obj
-C:\gitroot\ShellAnything\src\shellextension\stdafx.cpp;C:\gitroot\ShellAnything\build\src\shellextension\sa.shellextension.dir\Release\stdafx.obj
-C:\gitroot\ShellAnything\src\shellextension\TypeLibHelper.cpp;C:\gitroot\ShellAnything\build\src\shellextension\sa.shellextension.dir\Release\TypeLibHelper.obj
-C:\gitroot\ShellAnything\src\shellextension\utils.cpp;C:\gitroot\ShellAnything\build\src\shellextension\sa.shellextension.dir\Release\utils.obj
