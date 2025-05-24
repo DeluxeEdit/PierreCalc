@@ -1,20 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<root system.true="se">
+<root>
 	<shell>
-	
-    <menu name="DeluxeEdit with DeluxeEdit..." description="Run DeluxeEdit with DeluxeEdit">
+    	
+    <menu name="DeluxeEdit with DeluxeEdit..." description="Run DeluxeEdit with DeluxeEdit" system.true="se"  >
       <icon path="C:\gitroot\DeluxeEdit\DeluxeEdit\bin\Release\net9.0-windows10.0.17763.0\DeluxeEdit.exe"  />
-      <visibility maxfiles="1" maxfolders="0" />
+      <visibility maxfiles="1" maxfolders="0" system.true="se" />
       <actions>
 		  <exec path="C:\gitroot\DeluxeEdit\DeluxeEdit\bin\Production\Publish\DeluxeEdit.exe" arguments="${selection.path}" />
 
 	  </actions>
     </menu>
-  <menu name="HexView with DeluxeEdit..." description="Run HexView with DeluxeEdit">
+  <menu name="HexView with DeluxeEdit..." description="Run HexView with DeluxeEdit"   system.true="se" >
       <icon path="C:\gitroot\DeluxeEdit\DeluxeEdit\bin\Production\Publish\DeluxeEdit.exe"  />
-      <visibility maxfiles="1" maxfolders="0"  />
+	  <visibility maxfiles="1" maxfolders="0" system.true="se" />
       <actions>
 		  <exec path="C:\gitroot\DeluxeEdit\DeluxeEdit\bin\Production\Publish\DeluxeEdit.exe" arguments="${selection.path} hex" />
+		  
 	  </actions>
     </menu>
   </shell>
